@@ -1,0 +1,35 @@
+{
+    "name": "raj-jarvis/magento-uploadschema",
+    "description": "Upload Db Schema",
+	"require": {
+        "magento/magento-composer-installer": "*",
+        "composer/installers": "~1.0"
+    },
+    "license": [
+		"OSL-3.0",
+		"AFL-3.0"
+	],
+    "authors": [
+        {
+            "name": "Raj",
+			"email": "rajpanchal377@gmail.com"
+        }
+    ],
+    "require": {
+		"php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+	},
+	"version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Gotham\\Customimgattr\\": ""
+        },
+		"files": [
+            "registration.php"
+        ]
+    },
+	"extra": {
+        "installer-paths": {
+            "app/code/Gotham/Customimgattr": ["raj-jarvis/magento-uploadschema"]
+        }
+    }
+}
