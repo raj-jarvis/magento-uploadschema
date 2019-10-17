@@ -18,7 +18,7 @@
      "version": "1.0.0",
      "extra": {
         "installer-paths": {
-            "app/code/Gotham/Customimgattr": ["raj-jarvis/magento-uploadschema"]
+            "app/code/Gotham/Customimgattr": ["gotham/customimgattr"]
         }
      }
 }
