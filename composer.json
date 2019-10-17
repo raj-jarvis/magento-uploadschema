@@ -20,7 +20,7 @@
         "installer-paths": {
             "app/code": ["Gotham/Customimgattr"]
         }
-     }
+     },
      "autoload": {
           "files": [
                "registration.php"
