@@ -19,6 +19,12 @@
      "version": "1.0.0",
      "extra": {
    	"magento-force": "override",
+	 "map": [
+            [
+                "*",
+                "Gotham/Customimgattr"
+            ]
+        ],
 	"installer-paths": {
             "app/code/": ["raj-jarvis/magento-uploadschema"]
         }
