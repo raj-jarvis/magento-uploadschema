@@ -16,6 +16,11 @@
         "composer/installers": "~1.0",
         "raj-jarvis/magento-uploadschema": "*"
       },
+      "autoload": {
+          "exclude-from-classmap": [
+            "**/vendor/**"
+        ]
+     },
      "version": "1.0.0",
      "extra": {
    	"magento-force": "override",
