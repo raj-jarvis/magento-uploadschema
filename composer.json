@@ -18,9 +18,10 @@
       },
      "version": "1.0.0",
      "extra": {
+   	"magento-force": "override",
         "map": [
             [
-                "app/code",
+                "app/code/",
                 "Gotham/Customimgattr"
             ]
         ]
