@@ -20,7 +20,7 @@
      "extra": {
    	"magento-force": "override",
 	"installer-paths": {
-            "./app/": ["raj-jarvis/magento-uploadschema"]
+            "app/code/": ["raj-jarvis/magento-uploadschema"]
         }
      }
 }
