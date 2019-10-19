@@ -23,12 +23,6 @@
           }
      },
      "extra": {
-   	"magento-force": "override",
-        "map": [
-            [
-                "app/code/",
-                "Gotham/Customimgattr"
-            ]
-        ]
+   	"magento-force": "override"
      }
 }
