@@ -17,15 +17,10 @@
         "raj-jarvis/magento-uploadschema": "*"
       },
      "version": "1.0.0",
-     "autoload": {
-	  "files": [
-               "registration.php"
-          ],
-          "psr-4": {
-               "Gotham\\Customimgattr\\": "app/code/"
-          }
-     },
      "extra": {
-   	"magento-force": "override"
+   	"magento-force": "override",
+	"installer-paths": {
+            "./app/": ["raj-jarvis/magento-uploadschema"]
+        }
      }
 }
