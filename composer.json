@@ -19,9 +19,8 @@
       
      "version": "1.0.0",
      "extra": {
-   	"magento-force": "override",
 	"installer-paths": {
-            "app/code/": ["raj-jarvis/magento-uploadschema"]
+            "app/code/": ["type:magento2-module"]
         }
      }
 }
