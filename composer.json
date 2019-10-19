@@ -18,6 +18,9 @@
       },
      "version": "1.0.0",
      "autoload": {
+	  "files": [
+               "registration.php"
+          ],
           "psr-4": {
                "Gotham\\Customimgattr\\": "app/code/"
           }
