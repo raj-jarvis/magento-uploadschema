@@ -17,17 +17,12 @@
         "raj-jarvis/magento-uploadschema": "*"
       },
      "version": "1.0.0",
-      "autoload": {
-          "files": [
-               "registration.php"
-          ],
-          "psr-4": {
-               "Gotham\\Customimgattr\\": "app/"
-          }
-     },
      "extra": {
-        "installer-paths": {
-            "./app/": ["raj-jarvis/magento-uploadschema"]
-        }
+        "map": [
+            [
+                "app/code",
+                "Gotham/Customimgattr"
+            ]
+        ]
      }
 }
