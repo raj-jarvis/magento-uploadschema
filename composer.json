@@ -20,7 +20,7 @@
      "version": "1.0.0",
      "extra": {
 	"installer-paths": {
-            "app/code/": ["type:magento2-module"]
+            "app/code/": ["raj-jarvis/magento-uploadschema"]
         }
      }
 }
