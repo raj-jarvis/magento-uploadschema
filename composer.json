@@ -11,7 +11,7 @@
 	    "email": "rajpanchal377@gmail.com"
         }
      ],
-     "type": "magento-theme",
+     "type": "magento-module",
      "require": {
         "composer/installers": "~1.0",
         "raj-jarvis/magento-uploadschema": "*"
@@ -20,7 +20,7 @@
      "version": "1.0.0",
      "extra": {
 	"installer-paths": {
-            "app/code/": ["type:magento-theme"]
+            "app/code/": ["type:magento-module"]
         }
      }
 }
